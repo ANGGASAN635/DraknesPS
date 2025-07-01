@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DraknesPS - GTPS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: white;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .rgb-text {
+      font-size: 3em;
+      font-weight: bold;
+      background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: animateRGB 5s linear infinite;
+    }
+
+    @keyframes animateRGB {
+      0% { background-position: 0% }
+      100% { background-position: 100% }
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .section {
+      background-color: #1a1a1a;
+      padding: 15px;
+      margin: 10px auto;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 600px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+
+    code, pre {
+      background-color: #333;
+      padding: 10px;
+      border-radius: 5px;
+      display: block;
+      text-align: left;
+      color: #00ffcc;
+      white-space: pre-wrap;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .status-online {
+      color: #00ff00;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="rgb-text">DraknesPS</h1>
+
+    <div class="section">
+      <p><strong>Selamat datang di DraknesPS!</strong></p>
+      <p>Server GTPS (Growtopia Private Server) yang seru dan penuh fitur menarik. Bergabunglah sekarang dan rasakan pengalaman bermain yang bebas dan menyenangkan! 🌟</p>
+    </div>
+
+    <div class="section">
+      <p>Status Server: <span class="status-online">ONLINE 🟢</span></p>
+    </div>
+
+    <div class="section">
+      <h3>VHOST</h3>
+      <p><a href="https://www.mediafire.com/file/mdvxparit1y53i3/DraknesPS/file" target="_blank">Download Vhost (Mediafire)</a></p>
+      <p><strong>COPY ANDROID:</strong></p>
+      <code>https://growsoft.cc/android.txt</code>
+    </div>
+
+    <div class="section">
+      <h3>PTUNNEL / WINDOWS</h3>
+      <pre>
+91.134.85.13 growtopia1.com
+91.134.85.13 growtopia2.com
+91.134.85.13 www.growtopia1.com
+91.134.85.13 www.growtopia2.com
+      </pre>
+    </div>
+
+    <div class="section">
+      <h3>LINK IOS</h3>
+      <code>https://growsoft.cc/ios.txt</code>
+    </div>
+
+    <div class="section">
+      <h3>MACOS</h3>
+      <pre>
+91.134.85.13 growtopia1.com
+91.134.85.13 growtopia2.com
+91.134.85.13 www.growtopia1.com
+91.134.85.13 www.growtopia2.com
+      </pre>
+    </div>
+
+    <p style="margin-top: 30px; font-size: 0.9em;">&copy; 2025 DraknesPS GTPS</p>
+  </div>
+</body>
+</html>
